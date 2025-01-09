@@ -18,13 +18,11 @@ A specialized action for synchronizing two independent repositories using force 
 [![CI](https://github.com/aloong-actions/gitleaks/actions/workflows/ci.yml/badge.svg)](https://github.com/aloong-actions/gitleaks/actions/workflows/ci.yml)
 
 A security-focused action that scans your repository for hardcoded secrets using the powerful Gitleaks tool. It helps prevent accidental exposure of sensitive information like API keys, passwords, and tokens in your codebase.
-![](https://github.com/aloong-actions/gitleaks/raw/main/images/gitleaks-workflow.png){:width=80%}
 
 ### [Teams Deploy Card](https://github.com/aloong-actions/teams-deploy-card)
 [![CI](https://github.com/aloong-actions/teams-deploy-card/actions/workflows/ci.yml/badge.svg)](https://github.com/aloong-actions/teams-deploy-card/actions/workflows/ci.yml)
 
 An enhanced Microsoft Teams notification action that provides comprehensive deployment cards. It improves upon the original ms-teams-deploy-card with better actor detection, improved layout, and additional workflow notifications for committers.
-![](https://github.com/aloong-actions/teams-deploy-card/raw/main/images/teams-notifier.png)
 
 ## Getting Started
 
