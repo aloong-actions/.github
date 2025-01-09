@@ -4,12 +4,6 @@ This organization is a collection of useful GitHub Actions for enhancing your de
 
 ## Available Actions
 
-### [Gitleaks](https://github.com/aloong-actions/gitleaks)
-[![CI](https://github.com/aloong-actions/gitleaks/actions/workflows/ci.yml/badge.svg)](https://github.com/aloong-actions/gitleaks/actions/workflows/ci.yml)
-
-A security-focused action that scans your repository for hardcoded secrets using the powerful Gitleaks tool. It helps prevent accidental exposure of sensitive information like API keys, passwords, and tokens in your codebase.
-![](https://github.com/aloong-actions/gitleaks/raw/main/images/gitleaks-workflow.png)
-
 ### [Jenkins Job Trigger](https://github.com/aloong-actions/jenkins-job-trigger)
 [![CI](https://github.com/aloong-actions/jenkins-job-trigger/actions/workflows/cicd.yml/badge.svg)](https://github.com/aloong-actions/jenkins-job-trigger/actions/workflows/cicd.yml)
 
@@ -19,6 +13,12 @@ A Go-based action that triggers Jenkins jobs and waits for their completion. Thi
 A specialized action for synchronizing two independent repositories using force push. It features branch-specific synchronization controlled by a whitelist, making it ideal for maintaining mirror repositories or managing code distribution across multiple repositories.
 
 > ⚠️ **Warning**: This action uses force push which will overwrite the destination branch. Always backup your repository before use.
+
+### [Gitleaks](https://github.com/aloong-actions/gitleaks)
+[![CI](https://github.com/aloong-actions/gitleaks/actions/workflows/ci.yml/badge.svg)](https://github.com/aloong-actions/gitleaks/actions/workflows/ci.yml)
+
+A security-focused action that scans your repository for hardcoded secrets using the powerful Gitleaks tool. It helps prevent accidental exposure of sensitive information like API keys, passwords, and tokens in your codebase.
+![](https://github.com/aloong-actions/gitleaks/raw/main/images/gitleaks-workflow.png){:width=80%}
 
 ### [Teams Deploy Card](https://github.com/aloong-actions/teams-deploy-card)
 [![CI](https://github.com/aloong-actions/teams-deploy-card/actions/workflows/ci.yml/badge.svg)](https://github.com/aloong-actions/teams-deploy-card/actions/workflows/ci.yml)
