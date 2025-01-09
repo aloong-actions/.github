@@ -1,6 +1,6 @@
 # Aloong Actions
 
-A collection of useful GitHub Actions for enhancing your development workflow. These actions are designed to improve security, automation, and team collaboration.
+This organization is a collection of useful GitHub Actions for enhancing your development workflow. These actions are designed to improve security, automation, and team collaboration.
 
 ## Available Actions
 
@@ -8,6 +8,7 @@ A collection of useful GitHub Actions for enhancing your development workflow. T
 [![CI](https://github.com/aloong-actions/gitleaks/actions/workflows/ci.yml/badge.svg)](https://github.com/aloong-actions/gitleaks/actions/workflows/ci.yml)
 
 A security-focused action that scans your repository for hardcoded secrets using the powerful Gitleaks tool. It helps prevent accidental exposure of sensitive information like API keys, passwords, and tokens in your codebase.
+![](https://github.com/aloong-actions/gitleaks/raw/main/images/gitleaks-workflow.png)
 
 ### [Jenkins Job Trigger](https://github.com/aloong-actions/jenkins-job-trigger)
 [![CI](https://github.com/aloong-actions/jenkins-job-trigger/actions/workflows/cicd.yml/badge.svg)](https://github.com/aloong-actions/jenkins-job-trigger/actions/workflows/cicd.yml)
@@ -23,11 +24,8 @@ A specialized action for synchronizing two independent repositories using force 
 [![CI](https://github.com/aloong-actions/teams-deploy-card/actions/workflows/ci.yml/badge.svg)](https://github.com/aloong-actions/teams-deploy-card/actions/workflows/ci.yml)
 
 An enhanced Microsoft Teams notification action that provides comprehensive deployment cards. It improves upon the original ms-teams-deploy-card with better actor detection, improved layout, and additional workflow notifications for committers.
+![](https://github.com/aloong-actions/teams-deploy-card/raw/main/images/teams-notifier.png)
 
 ## Getting Started
 
 Each action has its own documentation with detailed usage instructions. Click on the action links above to learn more about their specific features and configuration options.
-
-## License
-
-Each action is released under its own license. Please check the individual repositories for license information.
